@@ -1,0 +1,101 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Light cyan background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff; /* White background for the container */
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 800px; /* Updated width to 800px */
+}
+
+h1 {
+    color: #00796b; /* Dark teal color */
+    font-size: 2.5em; /* Larger font size */
+}
+
+h2 {
+    color: #00796b; /* Dark teal color for history */
+    margin-top: 20px;
+    font-size: 1.8em; /* Larger font size */
+}
+
+.button-container {
+    margin: 20px 0;
+}
+
+.btn {
+    background-color: #00796b; /* Dark teal background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 8px;
+    padding: 15px 30px; /* Larger padding */
+    cursor: pointer;
+    font-size: 18px; /* Larger font size */
+    transition: background-color 0.3s, transform 0.2s;
+    margin: 10px; /* Space between buttons */
+}
+
+.btn:hover {
+    background-color: #004d40; /* Darker teal on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.location-text {
+    font-size: 20px; /* Larger font size */
+    color: #555; /* Gray text color */
+    margin-top: 10px;
+}
+
+.history-container {
+    margin-top: 20px;
+    text-align: left; /* Align text to the left */
+    max-height: 250px; /* Set a maximum height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px; /* Padding inside the container */
+    background-color: #f1f8e9; /* Light green background */
+}
+
+.history-item {
+    background-color: #e7f3fe; /* Light blue background for history items */
+    border: 1px solid #b3d7ff; /* Border for history items */
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0; /* Space between items */
+    display: flex; /* Flexbox for alignment */
+    justify-content: space-between; /* Space between text and button */
+    align-items: center; /* Center items vertically */
+}
+
+.delete-btn {
+    background-color: #d32f2f; /* Red background for delete button */
+    color: white; /* White text */
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px; /* Padding for delete button */
+    cursor: pointer;
+    font-size: 14px; /* Font size for delete button */
+    transition: background-color 0.3s;
+}
+
+.delete-btn:hover {
+    background-color: #b71c1c; /* Darker red on hover */
+}
+
+.map-container {
+    width: 100%; /* Full width of the parent container */
+    height: 500px; /* Set a specific height */
+}
